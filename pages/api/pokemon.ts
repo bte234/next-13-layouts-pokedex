@@ -13,5 +13,5 @@ const formatInput = (str: string) => {
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const query = req.query;
-  res.redirect(`/${formatInput(query.pokemon)}`);
+  res.redirect(`/${formatInput(query.pokemon as string)}`);
 }
