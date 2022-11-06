@@ -48,7 +48,7 @@ const PokemonInfoPage = async ({
         alt={`The sprite of the pokemon ${id}`}
         width={500}
         height={500}
-        className="w-full max-w-[500px] mx-auto"
+        className="w-full max-w-[500px] mx-auto [image-rendering:pixelated]"
       />
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold text-slate-700">Id</h2>
